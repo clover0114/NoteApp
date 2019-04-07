@@ -1,17 +1,15 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 // 作ったコンポーネントをインポートする
-import MemoList from './src/components/MemoList';
+import MemoListScreen from './src/screens/MemoListScreen';
 import AppBar from './src/components/AppBar';
-import CircleButton from './src/elements/CircleButton';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <AppBar />
-        <MemoList />
-        <CircleButton>＋</CircleButton>
+        <MemoListScreen />
       </View>
     );
   }
