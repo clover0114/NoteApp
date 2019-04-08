@@ -15,7 +15,7 @@ class BodyText extends React.Component {
 const styles = StyleSheet.create({
   text: {
     color: '#ddd',
-    backgroundColor: '#eee'
+    backgroundColor: '#eee',
   },
 });
 export default BodyText;

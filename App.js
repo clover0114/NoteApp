@@ -3,13 +3,14 @@ import { StyleSheet, View } from 'react-native';
 // 作ったコンポーネントをインポートする
 import MemoListScreen from './src/screens/MemoListScreen';
 import AppBar from './src/components/AppBar';
+import MemoDetailScreen from './src/screens/MemoDetailScreen';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <AppBar />
-        <MemoListScreen />
+        <MemoDetailScreen />
       </View>
     );
   }
