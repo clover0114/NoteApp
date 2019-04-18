@@ -6,21 +6,21 @@ import CircleButton from '../elements/CircleButton';
 class MemoDatailScreen extends React.Component {
   render() {
     return (
-     <View style={styles.container}>
-     <View>
-     <View style={styles.memoHeader}>
-       <Text style={styles.memoHeaderTitle}>講座のアイデア</Text>
-       <Text style={styles.memoHeaderDate}>2019/04/03</Text>
-     </View>
-     </View>
-      <View style={styles.memoContent}>
-       <Text>
-        講座のアイデアです。
+      <View style={styles.container}>
+        <View>
+          <View style={styles.memoHeader}>
+            <Text style={styles.memoHeaderTitle}>講座のアイデア</Text>
+            <Text style={styles.memoHeaderDate}>2019/04/03</Text>
+          </View>
+        </View>
+        <View style={styles.memoContent}>
+          <Text>
+            講座のアイデアです。
        </Text>
-      </View>
+        </View>
 
-      <CircleButton color="white" style={styles.editButton}>＋</CircleButton>
-     </View>
+        <CircleButton icon="camera" fontSize={40} color="white" style={styles.editButton} />
+      </View>
     );
   }
 }
