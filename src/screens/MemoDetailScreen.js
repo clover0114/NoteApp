@@ -19,7 +19,7 @@ class MemoDatailScreen extends React.Component {
        </Text>
         </View>
 
-        <CircleButton icon="camera" fontSize={40} color="white" style={styles.editButton} />
+        <CircleButton />
       </View>
     );
   }
