@@ -5,9 +5,9 @@ class AppBar extends React.Component {
   render() {
     return (
       <View style={styles.appbar}>
-         <View>
+        <View>
           <Text style={styles.appbarTitle}>QUICK Chip</Text>
-         </View>
+        </View>
       </View>
     );
   }
