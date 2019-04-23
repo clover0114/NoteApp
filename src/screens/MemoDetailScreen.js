@@ -19,7 +19,7 @@ class MemoDatailScreen extends React.Component {
        </Text>
         </View>
 
-        <CircleButton />
+        <CircleButton onPress={() => { this.props.navigation.navigate('Memoedit') }} underlayColor="transparent" />
       </View>
     );
   }

@@ -10,8 +10,8 @@ import MemoEditScreen from './src/screens/memoEditScreen';
 
 const App = createStackNavigator({
   Home: { screen: MemoListScreen },
-  MemoDatailScreen: { screen: MemoDatailScreen },
   Memoedit: { screen: MemoEditScreen },
+  MemoDatail: { screen: MemoDatailScreen },
   Login: { screen: LoginScreen },
   Signup: { screen: SignupScreen },
 }, {

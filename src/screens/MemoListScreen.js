@@ -3,15 +3,16 @@ import { StyleSheet, View } from 'react-native';
 
 import MemoList from '../components/MemoList';
 import CircleButton from '../elements/CircleButton';
+import { withNavigation } from 'react-navigation';
 
 class MemoListScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <MemoList />
-        <CircleButton />
+        <MemoList navigation={this.props.navigation} />
+        <CircleButton onPress={() => { this.props.navigation.navigate('Memoedit') }} />
       </View>
-    );
+    )
   }
 }
 
